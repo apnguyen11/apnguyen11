@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+.is-complete {
+  text-decoration: line-through;
+}
+
+.btn:hover {
+  background: #666
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.container{
+  padding: 0 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  line-height: 1.4;
+}
+
+.todo{
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px #ccc dotted;
+}
+
